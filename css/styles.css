@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* start of first section */
+.first-section{
+    background-image: url("../img/FIRST-BACKGROUND.jpg");
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.welcome{
+    padding-top: 15%;
+    height: 30vh;
+    width: 100%;
+    position: relative;    
+}
+.welcome h1{
+    padding-left:20%;
+    font-size: 450%;
+    color: #ffffff;
+    font-family: 'futura md bt', sans-serif ;
+}
+.welcome p{
+    padding-left: 20%;
+    color: #ffffff;
+    font-size: 19px;
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT';
+}
+.welcome-img{
+    height: 70vh;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.span-img{
+    height: 350px;
+    width: 350px;
+}
+.welcome-img img{
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 22% ;
+    background-image: radial-gradient(circle, white,cyan);
+    border: 3px solid white;
+}
+
+/* styling for phones or small screens */
+@media only screen and (max-width: 599px) {
+    .welcome-img img{
+        border-radius: 50%;
+        margin-top: 22% ;
+        margin: 22% auto 0;
+    }
+    .welcome-img{
+        height: 70vh;
+    }
+    .welcome h1{
+        font-size: 300%;
+        padding-top:10% ;
+        padding-left:10%;
+        color: #ffffff;
+    }
+    .welcome p{
+        padding-left: 10%;
+    }
+}
+
+/* End of styling for phones or small screens */
+
+
+/* styling for tablet or middle screens */
+@media only screen and (max-width: 980px) and (min-width: 600px) {
+    .Welcome-container{
+        padding-top: 30%;
+        height: 50%;
+        margin-top:20%;
+    }
+    .welcome-img img {
+        border-radius: 50%;
+        margin: 22% auto 0;
+    }
+    .welcome-img{
+        height: 70vh;
+    }
+    .welcome h1{
+        font-size: 400%;
+        padding-top:10% ;
+        padding-left:10%;
+        color: #ffffff;
+    }
+    .welcome p{
+        padding-left: 10%;
+    }
+}
+
+/* End of styling for tablet or middle screens */
+
+
+/* styling for laptops */
+@media only screen and (min-width: 981px){
+    .welcome-img{
+        margin-left: -7%;
+        padding: 7%;
+        height: 100vh;
+    }
+}
+
+/* end of styling for laptops*/
+
+/* End of first section */
+
+
+/* Start of second section */
+.second-section{
+    background-image: url("../img/SECOND\ SECTION\ BACKGROUND.jpg");
+    background-color: white;
+    background-size: cover;
+    padding-top:6% ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.about-me-con{
+    background-color: cyan;
+    border-radius: 0 60px 60px 0;
+    width: 30%;
+    height: 15%;
+    font-family: 'futura md bt' sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-me{
+    font-size:60px;
+    font-family: 'futura md bt' sans-serif;
+}
+.about-me-text-con{
+    height: 30%;
+}
+
+.about-me-text{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: calibri;
+    line-height: 50px;
+    margin-left: 5%;
+}
+
+.imagesection2{
+    border-radius: 50%;
+    
+}
+.section2span{
+    float: right;
+    margin: 30px 12px 3px 4px;
+    justify-content: center;
+    display:flex;
+    justify-items: flex-start;
+
+}
+
