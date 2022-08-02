@@ -175,6 +175,7 @@
     .about-me-con{
         width: 60%;
         height: 10%;
+        margin: 50px 0;
     }
     .abt-me{
         font-size:150%;
@@ -191,6 +192,14 @@
         align-items: center;
         margin: 20px auto;
     }
+    .about-me-text{
+        padding-top: 20px;
+        font-size: 10px;
+        font-family: calibri;
+        line-height: 30px; 
+        margin-left: 5%;
+    }
+    
 }
 
 /* End of styling for phones or small screens */
